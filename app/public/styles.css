@@ -3,11 +3,11 @@
 }
 
 .container {
-  margin-top: 3em;
+  margin-top: 4em;
 }
 
 .x {
-  margin-top:2em;
+  margin-top:0em;
 }
 
 /* --- TopNav.js - Start --- */
@@ -23,6 +23,36 @@
 
 .logo {
 	margin-left: 150px;
+  font-family: 'Indie Flower', cursive;
+  color:#3B60E4;
+  font-size: 3.5em;
+}
+
+.text {
+  font-family: 'Marcellus', serif;
+  color:#000000;
+  font-size: 1.5em;
+  line-height: 150%;
+}
+
+.small {
+  font-family: 'Marcellus', serif;
+  color:#000000;
+  font-size: 1.25em;
+  line-height: 125%;
+}
+
+.medium {
+  font-family: 'Marcellus', serif;
+  color:#000000;
+  font-size: 1.5em;
+  line-height: 100%;
+}
+
+.title {
+  font-family: 'Indie Flower', cursive;
+  color:#3B60E4;
+  font-size: 1.5em;
 }
 
 .top-slogan {
@@ -32,7 +62,15 @@
 }
 
 p.content a {
-  margin-right:75px;
+  margin-left: -10px;
+  margin-right:50px;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 2em;
+  color:#3B60E4;
+}
+
+.inverted menu {
+  background-color: #344055;
 }
 
 .icons {
@@ -42,6 +80,7 @@ p.content a {
 .footer-text{
   margin-top: -25px;
   margin-bottom: 15px;
+  color: white;
 }
 /* --- TopNavLists.js - Start --- */
 
@@ -225,9 +264,9 @@ p.content a {
 /* --- Quotebox.js - Start --- */
 
 .content {
-  width: 15em;
+  width: 20em;
   margin: 0 auto;
-  margin-top: 2em;
+  margin-top: 0em;
 }
 
 .text-quotes blockquote {

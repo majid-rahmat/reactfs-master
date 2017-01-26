@@ -5,7 +5,7 @@ const src = props.src;
 	return (
 	<div>
 		<div>
-			<h1 className="ui center aligned segment">🎤 The GOATs 🐐</h1>
+			<h1 className="ui center aligned segment title">🎤 The GOATs 🐐</h1>
 	    	<img className="ui large centered rounded image" src={src} />
 	    </div>
 	</div>
