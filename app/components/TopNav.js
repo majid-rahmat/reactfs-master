@@ -67,7 +67,7 @@ class TopNav extends React.Component{
   render() {
   return (
     <div>
-      <div className="ui inverted menu teal">
+      <div className="ui inverted menu blue">
         
           <a href="#" className="header item">
           <h1 className="logo">Blogological</h1>

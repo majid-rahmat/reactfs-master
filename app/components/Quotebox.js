@@ -5,7 +5,7 @@ function Quotebox(props) {
 		<div>
     		<blockquote>{props.quote}</blockquote>
     		<div className="ui center aligned container"> 
-    		<cite>{props.say}</cite>
+    		<cite className='cite'>{props.say}</cite>
     		</div>
   		</div>  
 	);

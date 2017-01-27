@@ -30,7 +30,7 @@ function Home(props) {
                 
                 <div className="column x">
                   <div className="middle aligned content">
-                    <Text customClass='small' msg='Press play for a look at pop culture through marketing, branding and business strategy (or is it the other way round?!)
+                    <Text customClass='medium' msg='Press play for a look at pop culture through marketing, branding and business strategy (or is it the other way round?!)
                     Click here for more episodes' />
                   </div>
                 </div>

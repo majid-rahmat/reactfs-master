@@ -5,13 +5,13 @@ const links = [
 
   {
     id: 0,
-    class:"item title",
+    class:"item toc1",
     link: '/hhandi/hiphopandi1', 
     name: 'Why Rap 1'
   },
   {
     id: 1,  
-    class:"item title",
+    class:"item toc1",
     link: '/hhandi/hiphophandi2',
     name: 'Why Rap 2'
   }
@@ -23,7 +23,7 @@ function TableOfContents(props) {
       );
     return (
       <div>
-          <h3 className='item text'>Table of Contents</h3>
+          <h3 className='toc'>Table of Contents</h3>
           <ul>{listItems}</ul>            
       </div>
     );

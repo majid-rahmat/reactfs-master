@@ -12,6 +12,7 @@ const routes = (
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
     	<IndexRoute component={HomeContainer} />
+    	
     	<Route path="/hhandi" component={HhandiContainer} />
     	<Route path="/hhandi/:hiphopandi" component={Hhandi1Container} /> 
     	<Route path="/episodes" component={EpisodesContainer} />

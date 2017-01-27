@@ -4,265 +4,84 @@
 
 .container {
   margin-top: 4em;
+  margin-bottom: 4em;
 }
 
-.x {
-  margin-top:0em;
+.container1 {
+  margin-bottom: 4em;
 }
 
 /* --- TopNav.js - Start --- */
-
-.top-nav {
-  border-bottom: thick solid #ff0000;
-}
-
-.top-logo {
-	display: inline-block;
-	margin-left: 5em;
-}
-
 .logo {
-	margin-left: 150px;
-  font-family: 'Indie Flower', cursive;
-  color:#3B60E4;
-  font-size: 3.5em;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Mogra', cursive;
+  font-size: 2.5em;
+  color:#FFAD15;
+  letter-spacing:0.15em;
 }
 
-.text {
-  font-family: 'Marcellus', serif;
-  color:#000000;
-  font-size: 1.5em;
-  line-height: 150%;
-}
-
-.small {
-  font-family: 'Marcellus', serif;
-  color:#000000;
-  font-size: 1.25em;
-  line-height: 125%;
-}
-
-.medium {
-  font-family: 'Marcellus', serif;
-  color:#000000;
-  font-size: 1.5em;
-  line-height: 100%;
-}
-
-.title {
-  font-family: 'Indie Flower', cursive;
-  color:#3B60E4;
-  font-size: 1.5em;
-}
-
-.top-slogan {
-  display: inline-block;
-  margin-left: 9em;
-  margin-top:-5em;
+p.content {
+  margin-left: 12.5em;
 }
 
 p.content a {
-  margin-left: -10px;
-  margin-right:50px;
-  font-family: 'Gloria Hallelujah', cursive;
+  margin-right:2.25em;
+  font-family: 'Mogra', cursive;
   font-size: 2em;
-  color:#3B60E4;
+  color:#FFAD15;
 }
 
-.inverted menu {
-  background-color: #344055;
-}
+/*p.content a:hover {
+    color: red;
+}*/
 
 .icons {
-  margin-right: 150px;
-}
-
-.footer-text{
-  margin-top: -25px;
-  margin-bottom: 15px;
-  color: white;
-}
-/* --- TopNavLists.js - Start --- */
-
-.top-nav-bar {
-  float: left;
-}
-
-.top-nav-bar, .top-nav-social {
-	list-style-type: none;
-	display: inline-flex;
-}
-
-.top-nav-bar {
-	margin-top: 2em;
-	margin-left: 15em;
-}
-
-.top-nav-social {
-	margin-left: 20em;
-}
-
-.bottom-bar {
-  background: #191919;
-  color: #fff;
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  position:relative;
-  text-align: center;
-  font-size: .8em;
-  text-transform: uppercase;
-  background: #000;
-  padding: 15px 0;
+  margin-right: 50px;
 }
 
 /* --- Home.js - Start --- */
-
-/*.home-header-container {
-  margin-top: 2em;
-  margin-bottom: 2em;
+.medium {
+  font-family: 'Raleway', sans-serif;
+  color:#000000;
+  font-size: 1.25em;
+  line-height: 150%;
 }
 
-.header-container {
-    display: inline-block;
-    width: 350px;
-    margin-right: 0px;
+/* --- TableOfContents.js - Start --- */
+.toc {
+  font-family: 'Mogra', cursive;
+  font-size: 2em;
+  color:#FFAD15;
+  letter-spacing:0.05em;
 }
 
-.header-container img {
-    width: 350px;
-    margin-left: 11em;
+.toc1 a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.75em;
+  color:#2185D0;
+  letter-spacing:0.05em;
+  margin-left:25px;
 }
 
-.home-text-vid {
-    display: inline-block;
-    width: 800px;
-    vertical-align: top;
-    margin-left:13em;
+.toc2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.75em;
+  color:#2185D0;
+  letter-spacing:0.05em;
 }
 
-.home-text-vid .paragraph {
-    text-align: justify;
+/* --- Footer.js - Start --- */
+.footer-text {
+  font-family: 'Amiko', sans-serif;
+  font-size: 1.5em;
+  color: white;
+  letter-spacing:0.15em;
+  margin-top: -20px;
+  margin-bottom: -20px;
 }
 
-.home-header-text-vid {
-    width: 395px;
-    height: 175px;
-    display: inline-block;
-    margin-top: 20px;
-    border: 1px solid black;
-    float: left;
-    margin-right: 10px;
-}
-
-.home-header-vid {
-    width: 395px;
-    height: 175px;
-    display: inline-block;
-    margin-top: 20px;
-    border: 1px solid black;
-}
-
-.home-header-text-top {
-  border: 1px solid black;
-  padding: 1.5em;
-}
-
-.home-slideshow {
-    display: block;
-    margin: 0 auto;
-    width: 350px;
-    margin-bottom: 2em;
-    margin-top: 2em;
-}*/
-
-/* --- Hhandi.js - Start --- */
-/*.table-of-contents {
-  display: inline-block;
-  border: 2px solid #000;
-  list-style: none;
-  margin-left: 11em;
-  float: left;
-  margin-top: 0em;
-  height: 15em;
-  width: 12em;
-}
-
-.hhandi-top-text, .hhandi-about-author {
-  border: 2px solid #000;
-  margin-left: 23em;
-  margin-right: 11em;
-  height: 7em;
-}
-
-.hhandi-about-author {
-  margin-top: 1em;
-}
-
-.hhandi-text-container {
-  margin-left: 2em;
-}
-
-.hhandi-wrapper {
-  margin-top: 2em;
-  margin-bottom: 2em;
-}*/
-
-/* --- Episodes.js - Start --- */
-
-/*.episodes-text-top {
-  border: 2px solid #000;  
-  margin-left: 11em;
-  margin-right: 11em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  padding: 1em;
-}
-
-.episodes-title {
-  margin-left: 5.5em;
-}
-
-.episodes-vid {
-  margin-left: 11em;
-  float: left;
-}
-
-.episodes-des {
-  border: 2px solid #000;
-  margin-right: 11em;
-  margin-left: 50em;
-  height: 20em;
-  margin-bottom: 2em; 
-}
-
-.episodes-header {
-  margin-left: 11em;
-  margin-right: 11em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}*/
-
-/* --- Episodes1.js - Start --- */
-/*.episode-vid {
-  margin-top: 2em;
-  margin-left: 30em;
-}
-
-.episode-title {
-  margin-top: 2em;
-  margin-left: 19em;
-}
-
-.episode-text {
-  margin-left:11em;
-  margin:right:11em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}*/
-
-/* --- Hhandi1.js - Start --- */
 /* --- Quotebox.js - Start --- */
-
 .content {
   width: 20em;
   margin: 0 auto;
@@ -272,13 +91,12 @@ p.content a {
 .text-quotes blockquote {
     position: relative;
     margin: 0;
-    padding: 8px 0 22px 0;
+    padding: 8px 0 18px 0;
     text-indent: 36px;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
     line-height: 24px;
-    font-weight: bold;
-    color: #999;
+    color: #000;
 }
 
 .text-quotes blockquote:before,
@@ -300,258 +118,11 @@ p.content a {
     content: '\201D';     /* Right double quote */ 
     right: 0px;
     bottom: -13px;
+} 
+
+.cite {
+  font-family: 'Amiko', sans-serif;
+  font-size: 1.5em;
+  color:#2185D0;
+  letter-spacing:0em;
 }
-
-/*.hhandi1-vid {
-  margin-top: 2em;
-  margin-left: 30em;
-}
-
-.hhandi1-text {
-  margin-left:11em;
-  margin-right:11em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}*/
-
-
-/* --- NAV - Start --- */
-
-/*.top-nav {
-  border-bottom: thick solid #ff0000;
-}
-
-.top-logo, .top-menu, .top-menu>li, .top-social-icons>li, .top-social-icons {
-	display: inline-block;
-}
-
-.top-logo>h1 {
-  margin-left: 5em;
-  font-size: 2.15em;
-}
-
-.top-menu {
-  margin-left: 12em;
-}
-
-.top-menu>li>a {
-    text-decoration: none;
-    font-size: 2em;
-}
-
-.top-social-icons {
-	margin-left: 9em;
-	margin-top: 3em;
-}
-
-.top-social-icons>li {
-  margin-right: 1em;
-}
-
-.top-social-icons>li>a {
-    color: black;
-    text-decoration: none;
-}
-
-.top-slogan {
-    margin-top: -1.3em;
-    margin-left: 13em;
-    font-size: 1.1em;
-}
-
-/* --- NAV - End --- */
-
-/* --- HOME - Start --- */
-
-/*.home-header-container {
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-
-.header-container {
-    display: inline-block;
-    width: 350px;
-    margin-right: 0px;
-}
-
-.header-container img {
-    width: 350px;
-    margin-left: 11em;
-}
-
-.home-text-vid {
-    display: inline-block;
-    width: 800px;
-    vertical-align: top;
-    margin-left:13em;
-}
-
-.home-text-vid .paragraph {
-    text-align: justify;
-}
-
-.home-header-text-vid {
-    width: 395px;
-    height: 175px;
-    display: inline-block;
-    margin-top: 20px;
-    border: 1px solid black;
-    float: left;
-    margin-right: 10px;
-}
-
-.home-header-vid {
-    width: 395px;
-    height: 175px;
-    display: inline-block;
-    margin-top: 20px;
-    border: 1px solid black;
-}
-
-.home-header-text-top {
-  border: 1px solid black;
-  padding: 1.5em;
-}
-
-.home-slideshow {
-    display: block;
-    margin: 0 auto;
-    width: 350px;
-    margin-bottom: 2em;
-    margin-top: 2em;
-}
-*/
-/* --- HOME - End --- */
-
-/* --- Hhandi - Start --- */
-
-/*.table-of-contents {
-  display: inline-block;
-  border: 2px solid #000;
-  list-style: none;
-  margin-left: 11em;
-  float: left;
-  margin-top: 0em;
-  height: 15em;
-  width: 12em;
-}
-
-.hhandi-top-text, .hhandi-about-author {
-  border: 2px solid #000;
-  margin-left: 23em;
-  margin-right: 11em;
-  height: 7em;
-}
-
-.hhandi-about-author {
-  margin-top: 1em;
-}
-
-.hhandi-text-container {
-  margin-left: 2em;
-}
-
-.hhandi-wrapper {
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-*/
-/* --- Ind. Hhandi articles - Start --- */
-
-/*.content {
-  width: 230px;
-  margin: 20px 0 40px 20px;
-}
-
-.text-quotes blockquote {
-    position: relative;
-    margin: 0;
-    padding: 8px 0 22px 0;
-    text-indent: 36px;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: bold;
-    color: #999;
-}
-
-.text-quotes blockquote:before,
-.text-quotes blockquote:after {
-    position: absolute;
-    font-family: "Times New Roman", serif;
-    font-size: 60px;
-    line-height: 26px;
-    color: #7ad;
-}
-
-.text-quotes blockquote:before {
-    content: '\201C';   /* Left double quote */
-    /*left: -36px;
-    top: 8px;
-}
-*/
-/*.text-quotes blockquote:after {
-    content: '\201D';    Right double quote 
-    right: 0px;
-    bottom: -13px;
-}
-*/
-
-/*.caption {
-  width:350px;
-}*/
-
-/* --- Ind. Hhandi articles - End --- */
-
-/* --- Hhandi - End --- */
-
-/* --- Episodes - Start --- */
-
-/*.episodes-text-top {
-  border: 2px solid #000;  
-  margin-left: 11em;
-  margin-right: 11em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  padding: 1em;
-}
-
-.episodes-title {
-  margin-left: 5.5em;
-}
-
-.episodes-vid {
-  margin-left: 11em;
-  float: left;
-}
-
-.episodes-des {
-  border: 2px solid #000;
-  margin-right: 11em;
-  margin-left: 50em;
-  height: 20em;
-  margin-bottom: 2em; 
-}
-*/
-/* --- Ind. Episodes vids - Start --- */
-
-/* --- Ind. Episodes vids - End --- */
-
-/* --- Episodes - End --- */
-
-/* --- FOOTER - Start --- */
-
-/*.bottom-bar {
-  background: #191919;
-  color: #fff;
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  position:relative;
-  text-align: center;
-  font-size: .8em;
-  text-transform: uppercase;
-  background: #000;
-  padding: 15px 0;
-}
-*/
-/* --- FOOTER - End --- */  
