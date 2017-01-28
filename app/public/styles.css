@@ -3,8 +3,8 @@
 }
 
 .container {
-  margin-top: 4em;
-  margin-bottom: 4em;
+  margin-top: 3.5em;
+  margin-bottom: 2.5em;
 }
 
 .container1 {
@@ -77,6 +77,25 @@ p.content a {
   font-size: 2em;
   color:#FFAD15;
   letter-spacing:0.05em;
+  text-align: center;
+}
+
+.table {
+  border: 0.25em ridge #2185D0;
+  border-radius: 2.5em;
+  padding: 1em;
+}
+
+.hood {
+  border: 0.1em solid #000;
+  border-radius: 0.15em;
+  padding: 0.75em;
+  text-align: center;
+  margin-bottom: 15px
+}
+
+.y {
+  margin-top: 15px;
 }
 
 .toc1 a {
@@ -85,7 +104,7 @@ p.content a {
   color:#2185D0;
   letter-spacing:0.05em;
   font-weight: 500;
-  margin-left:25px;
+  margin-left:80px;
 }
 
 .toc2 {
@@ -155,12 +174,24 @@ p.content a {
 /* --- Slideshow.js - Start --- */
 .good {
   border: 0.25em ridge #2185D0;
-  border-radius: 1.5em;
+  border-radius: 2.5em;
   padding: 0.5em;
   text-align: center;
 }
+
+.align {
+    margin-top:25px;
+}
+
 .slideshow {
   background-image: url(images/goat.jpg);
   background-repeat: repeat;
   margin-top: 25px;
+}
+
+.txt3 {
+  border: 0.05em ridge #2185D0;
+  padding: 35px 10px; 
+  text-align: center;
+  margin-bottom: 15px;
 }
