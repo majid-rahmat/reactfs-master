@@ -13,8 +13,8 @@
 
 /* --- TopNav.js - Start --- */
 .logo {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 1.25em;
+  margin-right: 1.25em;
   font-family: 'Mogra', cursive;
   font-size: 2.5em;
   color:#FFAD15;
@@ -37,7 +37,7 @@ p.content a {
 }*/
 
 .icons {
-  margin-right: 50px;
+  margin-right: 1.25em;
 }
 
 /* --- Home.js - Start --- */
@@ -45,7 +45,30 @@ p.content a {
   font-family: 'Raleway', sans-serif;
   color:#000000;
   font-size: 1.25em;
+  font-weight: 500;
   line-height: 150%;
+}
+
+.txt1 {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right:10px;
+}
+
+.txt2 {
+  border: 0.05em ridge #2185D0;
+  padding: 35px 10px; 
+  text-align: justify;
+  width:340px;
+  height: 225px;
+  margin-left: -25px
+}
+
+.img {
+  border: 0.25em double #FFAD15;
+  border-radius: 1.5em;
+  padding: 0.1em;
+  margin-top: 17.5px;
 }
 
 /* --- TableOfContents.js - Start --- */
@@ -61,6 +84,7 @@ p.content a {
   font-size: 1.75em;
   color:#2185D0;
   letter-spacing:0.05em;
+  font-weight: 500;
   margin-left:25px;
 }
 
@@ -68,6 +92,7 @@ p.content a {
   font-family: 'Raleway', sans-serif;
   font-size: 1.75em;
   color:#2185D0;
+  font-weight: 500;
   letter-spacing:0.05em;
 }
 
@@ -125,4 +150,17 @@ p.content a {
   font-size: 1.5em;
   color:#2185D0;
   letter-spacing:0em;
+}
+
+/* --- Slideshow.js - Start --- */
+.good {
+  border: 0.25em ridge #2185D0;
+  border-radius: 1.5em;
+  padding: 0.5em;
+  text-align: center;
+}
+.slideshow {
+  background-image: url(images/goat.jpg);
+  background-repeat: repeat;
+  margin-top: 25px;
 }

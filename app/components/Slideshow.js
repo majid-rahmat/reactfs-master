@@ -4,12 +4,14 @@ function Slideshow(props) {
 const src = props.src;
 	return (
 	<div>
-		<div>
-			<div className="ui center aligned segment">
-			<h1 className="logo">🎤 The GOATs 🐐</h1>
+		
+			<div className="ui center aligned ">
+			<h1 className="logo good">🎤 The GOATs 👑</h1>
 			</div>
+	    	<div className='slideshow'>	
 	    	<img className="ui large centered rounded image" src={src} />
-	    </div>
+	    	</div>
+	    
 	</div>
 	);
 };
