@@ -8,14 +8,14 @@ function Hhandi(props) {
             <div className="ui container">
                 <div className="ui grid">
                     
-                    <div className="six wide column">
+                    <div className="five wide column">
                         <TableOfContents />
                     </div>
 
                     <div className='ten wide column'>
                         <div className='row'>
                         
-                        <div className='column medium hood'>
+                        <div className='column medium x'>
                             <Text msg='Rhythm And Poetry; that’s what rap literally and figuratively stands for. 
                             The Big Apple cultivated these musical Gemini to create unforgettable, far-reaching musical memories. Dudes molded wax to discuss their inner demons, vent their frustrations, talk about the ills that continue to plague their societies, and brashly declare their ambitions, visions, and dreams.
                             Click here to continue reading!'/>

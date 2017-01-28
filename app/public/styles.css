@@ -84,12 +84,13 @@ p.content a {
   border: 0.25em ridge #2185D0;
   border-radius: 2.5em;
   padding: 1em;
+  margin-right: 50px;
 }
 
 .hood {
   border: 0.1em solid #000;
   border-radius: 0.15em;
-  padding: 0.75em;
+  padding: 1em;
   text-align: center;
   margin-bottom: 15px
 }
@@ -104,7 +105,7 @@ p.content a {
   color:#2185D0;
   letter-spacing:0.05em;
   font-weight: 500;
-  margin-left:80px;
+  margin-left:15px;
 }
 
 .toc2 {
@@ -113,6 +114,16 @@ p.content a {
   color:#2185D0;
   font-weight: 500;
   letter-spacing:0.05em;
+}
+
+.toc3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25em;
+  color:#2185D0;
+  font-weight: 500;
+  letter-spacing:0.05em;
+  margin-bottom: 25px;
+  text-decoration: underline;
 }
 
 /* --- Footer.js - Start --- */
@@ -192,6 +203,10 @@ p.content a {
 .txt3 {
   border: 0.05em ridge #2185D0;
   padding: 35px 10px; 
-  text-align: center;
+  text-align: justify;
   margin-bottom: 15px;
+}
+
+.x {
+  
 }
