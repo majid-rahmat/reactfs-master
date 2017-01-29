@@ -22,7 +22,7 @@ function Hhandi1(props) {
             </div>
         
             <div className="ui center aligned container">
-            <Video customClass='hhandi1-vid' src='https://www.youtube.com/embed/Jsb4EDtTDyk' width='560' height='315' />
+            <Video customClass='hhandi1-vid' src='https://www.youtube.com/embed/Jsb4EDtTDyk' width='50%' height='315' />
             </div>
 
             <Text customClass='medium margin' msg='A "rather unique" look at marketing and rap... 
@@ -34,7 +34,7 @@ function Hhandi1(props) {
             </div>
             
             <div className="ui center aligned container">
-            <Video customClass='hhandi1-vid' src='https://www.youtube.com/embed/08vEi-vhZIA' width='560' height='315' />
+            <Video customClass='hhandi1-vid' src='https://www.youtube.com/embed/08vEi-vhZIA' width='50%' height='315' />
             </div>
             
             <Text customClass='medium margin' msg='The ruler is Back!

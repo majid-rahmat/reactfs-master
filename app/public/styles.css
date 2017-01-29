@@ -32,9 +32,13 @@ p.content a {
   color:#FFAD15;
 }
 
-/*p.content a:hover {
-    color: red;
-}*/
+p.content a:active {
+    color: white;
+}
+
+p.content a:hover {
+    color: white;
+}
 
 .icons {
   margin-right: 1.25em;
@@ -112,21 +116,37 @@ p.content a {
 .toc2 {
   font-family: 'Raleway', sans-serif;
   font-size: 1.75em;
-  color:#2185D0;
+  color:#000
   font-weight: 500;
   letter-spacing:0.1em;
   text-decoration: underline;
 }
 
-.toc3 {
+.toc3 h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 1em;
+  font-size: 1.75em;
   color:#2185D0;
   font-weight: 500;
   letter-spacing:0.05em;
   margin-bottom: 25px;
   text-decoration: underline;
   text-align: center;
+}
+
+.toc3 h1:active {
+    color: #000;
+}
+
+.toc3 h1:hover {
+    color: #000;
+}
+
+.toc1 a:active {
+    color: #000;
+}
+
+.toc1 a:hover {
+    color: #000;
 }
 
 /* --- Footer.js - Start --- */
