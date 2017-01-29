@@ -18,47 +18,35 @@ function Episodes(props) {
             </div>
                 
                 
-                <div className='thirteen wide column centered'>
+                <div className='six wide column centered'>
                 <div className='toc3'>
                 <Link to='/episodes/epi1'><Title msg='Episode 1:'/></Link>
                 </div>
-                <div className='ui two column grid'>
-            
-                <div className='column'>
-                <Video src='https://www.youtube.com/embed/Jsb4EDtTDyk' width="100%" height='315' />
-                </div>
                 
-                <div className="column">
+                <Video src='https://www.youtube.com/embed/Jsb4EDtTDyk' width="100%" height='315' />
+                
                 <h3>Description:</h3>
-                <Text customClass='medium x' msg='A "rather unique" look at marketing and rap... 
+                <Text customClass='medium' msg='A "rather unique" look at marketing and rap... 
                 In this introductory episode, we go over some basic marketing frameworks (4Ps, 3As, 3Cs) and fit 2pac and Biggie into them.
                 We then view contemporary corporate strategy through Kanye Wests 2004 classic The College Dropout, closing with a special plea to Wale and Kendrick Lamar...Word to Drizzy and Cole' />
                 </div>
+                               
+                
+                
+                <div className='six wide column centered'>
+                <div className='toc3'>
+                <Link to='/episodes/epi2'><Title  msg='Episode 2:' /></Link>
                 </div>
-                
-                
-                
-
-                <Link to='/episodes/epi2'><Title customClass='toc2' msg='Episode 2:' /></Link>
-                <div className='ui two column grid'>
-                
-                    <div className='column'>
-                
                     <Video src='https://www.youtube.com/embed/08vEi-vhZIA' width="100%" height='315' />
-                    </div>
-                    <div className="column">
-                    <div className="ui segment">
+                    
                     <h3>Description:</h3>
                     <Text customClass='medium' msg='The ruler is Back!
                     First and second mover advantage is discussed in relation to Jay-Zs music and businesses as we see where and when he applies each. 
                     Likewise, we see how Jigga has practically applied a couple of Warren Buffetts most famous pieces of advice and the rewards he has reaped.' />
                     </div>
                     </div>
-                </div>
-            </div>
         </div>
         </div>
-        </div>        
     );
 };
 

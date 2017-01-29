@@ -12,7 +12,10 @@ function Episodes1(props) {
         	<div className='thirteen wide column centered'>
         <div className="ui center aligned container">           
         <Video src='https://www.youtube.com/embed/Jsb4EDtTDyk' width='560' height='315' />
+        
+        <div className='margin'>
         <Title msg='Episode 1 Transcript' customClass='toc2' />
+        </div>
       	</div>
         
         <Text customClass='medium' msg='A "rather unique" look at marketing and rap... 

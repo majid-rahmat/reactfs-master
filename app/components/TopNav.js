@@ -11,14 +11,14 @@ const links = [
   {
     id: 1,
     class:"item",
-    link: '/hhandi',
-    name: 'HH&I'
+    link: '/episodes',
+    name: 'Episodes'
   },
   {
     id: 2,
     class:"item",
-    link: '/episodes',
-    name: 'Episodes'
+    link: '/hhandi',
+    name: 'HH&I'
   }
 ];
 
