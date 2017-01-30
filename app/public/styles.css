@@ -33,6 +33,7 @@ p.content a {
 }
 
 p.content a:active {
+  text-decoration: underline;
     color: white;
 }
 
