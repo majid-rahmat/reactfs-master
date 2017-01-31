@@ -1,6 +1,7 @@
 import React from 'react';
 import TopNavContainer from './TopNavContainer';
 import FooterContainer from './FooterContainer';
+import TableofContents from '../components/TableOfContents.js'
 
 function Main (props) {
   	return (
@@ -17,3 +18,4 @@ Main.propTypes={
 }
 
 export default Main;
+			// <TableofContents /> after line 9

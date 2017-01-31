@@ -7,6 +7,7 @@ import HhandiContainer from '../containers/HhandiContainer';
 import Hhandi1Container from '../containers/Hhandi1Container';
 import EpisodesContainer from '../containers/EpisodesContainer';
 import Episodes1Container from '../containers/Episodes1Container';
+import Signup from '../containers/Signup';
 
 const routes = (
   <Router history={hashHistory}>
@@ -14,9 +15,16 @@ const routes = (
     	<IndexRoute component={HomeContainer} />
     	
     	<Route path="/hhandi" component={HhandiContainer} />
-    	<Route path="/hhandi/:hiphopandi" component={Hhandi1Container} /> 
-    	<Route path="/episodes" component={EpisodesContainer} />
+    	<Route path="/hhandi/:hiphopandi" component={Hhandi1Container} />
+         
+    	
+        <Route path="/episodes" component={EpisodesContainer} />
     	<Route path="/episodes/:epi" component={Episodes1Container} />
+    
+        <Route path="/signup" component={Signup} />
+
+
+
     </Route>
   </Router>
 );
