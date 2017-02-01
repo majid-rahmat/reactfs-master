@@ -238,3 +238,8 @@ p.content a:hover {
   margin-top: 25px;
 }
 
+/*.custom-footer {
+  position: absolute !important;
+  bottom: 0;
+  width: 100%;
+}*/

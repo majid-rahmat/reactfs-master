@@ -5,25 +5,42 @@ import Main from '../containers/Main';
 import HomeContainer from '../containers/HomeContainer';
 import HhandiContainer from '../containers/HhandiContainer';
 import Hhandi1Container from '../containers/Hhandi1Container';
+import Hhandi1 from '../components/Hhandi1';
+import Hhandi from '../components/Hhandi';
 import EpisodesContainer from '../containers/EpisodesContainer';
 import Episodes1Container from '../containers/Episodes1Container';
+import Admin from '../containers/Admin';
 import Signup from '../containers/Signup';
+import Login from '../containers/Login';
+import Dashboard from '../containers/Dashboard';
+import AddArticle from '../containers/AddArticle';
+import EditArticle from '../containers/EditArticle';
+import AddVid from '../containers/AddVid';
+import EditVid from '../containers/EditVid';
 
 const routes = (
   <Router history={hashHistory}>
+    
     <Route path="/" component={Main}>
     	<IndexRoute component={HomeContainer} />
     	
-    	<Route path="/hhandi" component={HhandiContainer} />
-    	<Route path="/hhandi/:hiphopandi" component={Hhandi1Container} />
-         
+    	<Route path="/hhandi" component={Hhandi} >
+    	<Route path="/hhandi/:hiphopandi" component={Hhandi1} />
+        </Route> 
     	
         <Route path="/episodes" component={EpisodesContainer} />
     	<Route path="/episodes/:epi" component={Episodes1Container} />
     
+        <Route path="/admin" component={Admin} />
         <Route path="/signup" component={Signup} />
-
-
+        <Route path="/login" component={Login} />
+        <Route path="/dashboard" component={Dashboard} />
+        
+        <Route path="/addarticle" component={AddArticle} />
+        <Route path="/editarticle" component={EditArticle} />
+        
+        <Route path="/addvid" component={AddVid} />
+        <Route path="/editvid" component={EditVid} />
 
     </Route>
   </Router>

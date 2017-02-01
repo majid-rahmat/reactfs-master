@@ -26,6 +26,7 @@ function TableOfContents(props) {
           <div className="table">
           <h3 className='toc'>Table of Contents</h3>
           <ul>{listItems}</ul>
+
           </div>            
       </div>
     );

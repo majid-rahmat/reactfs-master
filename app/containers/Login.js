@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Signup(props) {
+function Login(props) {
   	return (
 		<div>
 		
@@ -8,19 +8,13 @@ function Signup(props) {
         <div className="ui grid">
         
       
-        	<h1> Sign up, it's free! </h1>
+        	<h1> Welcome Back! </h1>
         		
         		<form>
   				User name:
   				<input type="text" name="username" value="Mickey" />
-
-  				Email:
-  				<input type="text" name="email" value="Mickey@yahoo.com" />
-
-  				Password:
-  				<input type="text" name="password" value="Mouse" />
 				
-			  	Confirm Password:
+			  	Password:
 			  	<input type="text" name="password" value="Mouse" />
 			  	
 			  	<button type="submit" value="Submit"> Login</button>
@@ -34,4 +28,4 @@ function Signup(props) {
   	);
 };
 
-export default Signup;
+export default Login;
