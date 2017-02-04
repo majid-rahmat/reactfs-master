@@ -17,6 +17,7 @@ import AddArticle from '../containers/AddArticle';
 import EditArticle from '../containers/EditArticle';
 import AddVid from '../containers/AddVid';
 import EditVid from '../containers/EditVid';
+import Example from '../components/example'
 
 const routes = (
   <Router history={hashHistory}>
@@ -25,6 +26,7 @@ const routes = (
     	<IndexRoute component={HomeContainer} />
     	
     	<Route path="/hhandi" component={Hhandi} >
+        <IndexRoute component={Example} />
     	<Route path="/hhandi/:hiphopandi" component={Hhandi1} />
         </Route> 
     	

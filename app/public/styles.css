@@ -8,6 +8,12 @@
 }
 
 .container1 {
+  margin-top: -2em;
+  margin-bottom: 4em;
+}
+
+.container2 {
+  margin-top: 0em;
   margin-bottom: 4em;
 }
 
@@ -162,7 +168,7 @@ p.content a:hover {
 
 /* --- Quotebox.js - Start --- */
 .content {
-  width: 20em;
+  width: 25em;
   margin: 0 auto;
   margin-top: 0em;
 }
@@ -170,7 +176,7 @@ p.content a:hover {
 .text-quotes blockquote {
     position: relative;
     margin: 0;
-    padding: 8px 0 18px 0;
+    padding: 4px 0 9px 0;
     text-indent: 36px;
     font-family: 'Raleway', sans-serif;
     font-size: 1.25em;
