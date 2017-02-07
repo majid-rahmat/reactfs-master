@@ -4,20 +4,18 @@ import Text from './Text';
 
 function Hhandi(props) {
     return (
-        <div>
-            <div className="ui container">
-                <div className="ui grid">
-                    
-                    <div className="five wide column">
-                        <TableOfContents />
-                    </div>
-                        
-                        <div className='ten wide column'>
-                        {props.children}
-                        </div>
-                </div>
+    <div className="ui container">
+        <div className="ui grid">
+
+            <div className='five wide column'>
+            <TableOfContents />
+            </div>
+            
+            <div className='ten wide column'>
+            {props.children}
             </div>
         </div>
+    </div>
     );
 };
 

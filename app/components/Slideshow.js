@@ -3,17 +3,13 @@ import React from 'react';
 function Slideshow(props) {
 const src = props.src;
 	return (
-	<div>
+		<div className="topss">
+			<h1 className="logo titleborder">🎤 The GOATs 👑</h1>
 			
-			<div className="align ">
-			<h1 className="logo good">🎤 The GOATs 👑</h1>
-			</div>
-	    	<div className='slideshow'>	
-	    	<img className="ui large centered rounded image" src={src} />
+	    	<div className='slideshowbackground'>	
+	    		<img className="ui large centered rounded image slideshowborder" src={src} />
 	    	</div>
-	    	
-	    
-	</div>
+    	</div>
 	);
 };
 

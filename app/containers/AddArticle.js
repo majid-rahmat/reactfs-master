@@ -6,40 +6,48 @@ function AddArticle(props) {
 		
 		<div className="ui container">
         <div className="ui grid">
+        <div className='five wide centered column'>
         		
-        		<form>
-  				Title:
+        	<form>
+  				
+          <div className='row'>
+          Title:
   				<input type="text" name="title" value="Article 1" />
-  				<br />
+  				</div>
+          <div className='row'>
   				Beginning Quote :
   				<input type="text" name="begquote" value="Lorem ipsum." />
-  				<br />
+  				</div>
+          <div className='row'>
   				Beginning Cite:
   				<input type="text" name="begcite" value="Lorem" />
-  				<br />
+  				</div>
+          <div className='row'>
   				Beginning Vid:
   				<input type="text" name="begvid" value="http://youtube.com" />
-				<br />
+				  </div>
+          <div className='row'>
 			  	text:
 			  	<input type="text" name="text" value="Mouse" />
-  				<br />
+  				</div>
+          <div className='row'>
   				Closing Vid:
   				<input type="text" name="closingvid" value="http://youtube.com" />
-				<br />
+				  </div>
+          <div className='row'>
   				Closing Quote :
   				<input type="text" name="closingquote" value="Lorem ipsum." />
-  				<br />
+  				</div>
+          <div className='row'>
   				Closing Cite:
   				<input type="text" name="closingcite" value="Lorem" />
-
-
-			  	
-			  	<button type="submit" value="Submit"> Login</button>
+          </div>
+			  	<button type="submit" value="Submit"> Submit</button>
 				</form> 
 		
 		</div>
 		</div>
-		
+    </div>
 		</div>
   	);
 };

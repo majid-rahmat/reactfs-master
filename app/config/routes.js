@@ -36,13 +36,12 @@ const routes = (
         <Route path="/admin" component={Admin} />
         <Route path="/signup" component={Signup} />
         <Route path="/login" component={Login} />
-        <Route path="/dashboard" component={Dashboard} />
         
+        <Route path="/dashboard" component={Dashboard} />
         <Route path="/addarticle" component={AddArticle} />
         <Route path="/editarticle" component={EditArticle} />
-        
-        <Route path="/addvid" component={AddVid} />
-        <Route path="/editvid" component={EditVid} />
+        <Route path="/addvideo" component={AddVid} />
+        <Route path="/editvideo" component={EditVid} />
 
     </Route>
   </Router>

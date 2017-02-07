@@ -6,25 +6,29 @@ function EditVid(props) {
 		
 		<div className="ui container">
         <div className="ui grid">
-        	
-          <h1>New!!!</h1>	
-        		
-          <form>
+        <div className='five wide centered column'>
+
+        <h1>Edit Video</h1> 
+            
+        <form>
+          <div className='row'>
           Video:
           <input type="text" name="title" value="Article 1" />
-          <br />
+          </div>
+          <div className='row'>
           Title :
           <input type="text" name="begquote" value="Lorem ipsum." />
-          <br />
+          </div>
+          <div className='row'>
           Text:
           <input type="text" name="begcite" value="Lorem" />
-  
-          <button type="submit" value="Submit"> Login</button>
-          </form> 
-		
+          </div>
+          <button type="submit" value="Submit"> Submit</button>
+        </form>
+          
 		</div>
 		</div>
-		
+		</div>
 		</div>
   	);
 };

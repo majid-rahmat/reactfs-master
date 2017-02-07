@@ -8,16 +8,13 @@ function Hhandi1(props) {
     return (
         <div>
             
-
             <div className="ui grid">
-
 
             <div className="ui center aligned container">
             <Title customClass='toc2' msg='Why Rap 1' />
-            
 
-            <div className="content text-quotes small">
-                <Quotebox quote='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quas voluptatibus tempora culpa qui porro numquam quasi neque. Magni laudantium, dolores aut aliquid dolore nobis repudiandae voluptatem, rerum, esse accusantium voluptatibus modi? Saepe provident minus, necessitatibus voluptas nobis velit, quae eaque tempore maxime numquam fuga incidunt earum reiciendis, ipsam sequi!' say='Jay-Z' />
+            <div className="content text-quotes">
+                <Quotebox quote='All I need is one mic' say='NaS' />
             </div>
             </div>
             </div>
@@ -39,9 +36,8 @@ function Hhandi1(props) {
             <div className="content text-quotes small">
                 <Quotebox quote='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, alias ut facere?' say='The Notorious B.I.G' />
             </div>
-
             </div>
-            </div>
+        </div>
     );
 };
 

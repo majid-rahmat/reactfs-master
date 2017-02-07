@@ -52,7 +52,6 @@ const Social = [
 class TopNav extends React.Component{
   constructor(props) {
     super(props);
-
   
   this.listItems = links.map((object) =>
       <Link key={ object.id } to={object.link}>{object.name}</Link>
@@ -63,24 +62,23 @@ class TopNav extends React.Component{
       );
 }    
 
-  
-  render() {
+render() {
   return (
-    <div>
-      <div className="ui inverted menu blue">
+    <div className="ui inverted menu blue">
         
           <a href="#" className="header item">
-          <h1 className="logo">Blogological</h1>
+            <h1 className="logo">Blog-<i className="fa fa-globe" aria-hidden="true"></i>-Logical</h1>
           </a>
-          <div className="ui center aligned container">  
-          <p className='content'>{this.listItems}</p>
+          
+          <div className="ui center aligned container space">  
+            <p className='nav'>{this.listItems}</p>
           </div>
+          
           <i className="icons item right">{this.socialItems}</i> 
-        
-      </div>
+          <p className='item'><Link to='/admin'>Admin</Link></p>
     </div>
   )
-  };
+};
 };
 
 export default TopNav;

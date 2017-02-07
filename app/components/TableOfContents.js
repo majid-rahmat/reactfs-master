@@ -22,11 +22,10 @@ function TableOfContents(props) {
       <h4 className={object.class} key={ object.id }><Link to={object.link}>{object.name}</Link></h4>
       );
     return (
-      <div>
-          <div className="table">
-          <h3 className='toc'>Table of Contents</h3>
-          <ul>{listItems}</ul>
-
+      <div className='ui left floated basic center aligned segment size'>
+          <div className="tocborder">
+            <h3 className='toc'>Table of Contents</h3>
+            <ul>{listItems}</ul>
           </div>            
       </div>
     );
